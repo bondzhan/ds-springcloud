@@ -1,0 +1,27 @@
+allprojects {
+    apply plugin: 'eclipse' 
+    version = '1.0'  
+}
+
+//configure(subprojects.findAll {it.name != "common"}) {
+  //  println it.name
+//}
+
+subprojects{
+     
+    apply plugin: 'java'    
+    
+     // JVM 版本号要求
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+     // java编译的时候缺省状态下会因为中文字符而失败
+    [compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+
+}
+
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.14'
+}
