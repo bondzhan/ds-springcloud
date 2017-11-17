@@ -9,10 +9,14 @@
 */
 package org.bond.yy;
 
+import org.bond.yy.filter.PostFilter;
+import org.bond.yy.filter.PreFilter;
+import org.bond.yy.filter.RouteFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.context.annotation.Bean;
 
 /** 
 * @ClassName: GatewayApplication 
@@ -37,6 +41,21 @@ public class GatewayApplication {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SpringApplication.run(GatewayApplication.class,args);
+	}
+	
+	@Bean
+	public PostFilter setPostFilterBean(){
+		return new PostFilter();
+	}
+	
+	@Bean
+	public RouteFilter setRouteFilterBean(){
+		return new RouteFilter();
+	}
+	
+	@Bean
+	public PreFilter setPreFilterBean(){
+		return new PreFilter();
 	}
 
 }
