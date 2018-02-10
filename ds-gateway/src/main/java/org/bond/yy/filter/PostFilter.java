@@ -9,10 +9,13 @@
 */
 package org.bond.yy.filter;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.netflix.zuul.ZuulFilter;
+import com.netflix.zuul.context.RequestContext;
 
 /** 
 * @ClassName: RouteFilter 
@@ -30,7 +33,7 @@ public class PostFilter extends ZuulFilter {
 	@Override
 	public boolean shouldFilter() {
 		log.info("PostFilter shouldFilter");
-		return false;
+		return true;
 	}
 
 	/* (non-Javadoc)
@@ -39,6 +42,9 @@ public class PostFilter extends ZuulFilter {
 	@Override
 	public Object run() {
 		log.info("PostFilter run");
+        RequestContext ctx = RequestContext.getCurrentContext();  
+        HttpServletRequest request = ctx.getRequest();  
+        log.info(request.getRequestURI());
 		return null;
 	}
 
