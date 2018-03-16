@@ -1,7 +1,14 @@
 server:
   port: 8082
 
-
+system:
+  config:
+    accessTokenFilter:
+      ignoreUrls: /user/login
+    getReqFilter:
+      ignoreUrls: /user/getUser
+      
+      
 spring:
   application:
     name: gateway-service

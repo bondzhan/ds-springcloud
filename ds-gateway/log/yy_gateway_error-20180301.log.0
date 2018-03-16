@@ -1,0 +1,197 @@
+2018-03-01 10:43:10.023 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:43:46.655 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:32.624 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:33.829 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:34.569 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:35.231 [http-nio-8762-exec-7] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:35.714 [http-nio-8762-exec-9] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:36.040 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:36.350 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:36.687 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:36.974 [http-nio-8762-exec-7] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:44:37.288 [http-nio-8762-exec-9] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:47:00.241 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:47:00.970 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:47:01.351 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:47:01.542 [http-nio-8762-exec-7] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:47:01.710 [http-nio-8762-exec-9] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:47:01.895 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:47:49.638 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:58:59.926 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:59:01.519 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:59:01.998 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:59:02.428 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:59:02.861 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 10:59:03.260 [http-nio-8762-exec-6] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 11:57:32.885 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : getWriter() has already been called for this response
+2018-03-01 11:59:49.710 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 12:03:05.600 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 12:03:41.756 [http-nio-8762-exec-6] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:46:48.578 [http-nio-8762-exec-9] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:53:53.031 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:55:25.766 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:55:25.767 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:56:14.060 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:56:15.926 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:31.348 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:31.349 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:57:32.679 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:32.679 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:57:33.334 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:33.335 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:57:33.814 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:33.815 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:57:34.271 [http-nio-8762-exec-6] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:34.271 [http-nio-8762-exec-6] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:57:34.750 [http-nio-8762-exec-7] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:34.751 [http-nio-8762-exec-7] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:57:35.209 [http-nio-8762-exec-8] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:35.210 [http-nio-8762-exec-8] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:57:35.626 [http-nio-8762-exec-9] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:35.627 [http-nio-8762-exec-9] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:57:41.518 [http-nio-8762-exec-10] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:57:41.519 [http-nio-8762-exec-10] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:58:52.366 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:58:52.367 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:58:53.022 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:58:53.023 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:58:53.525 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:58:53.525 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 13:58:54.062 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 13:58:54.062 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:02:59.809 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:02:59.810 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:03:01.263 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:03:01.264 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:03:01.831 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:03:01.832 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:03:02.287 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:03:02.289 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:03:46.129 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:03:46.130 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:03:47.599 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:03:47.600 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:03:48.599 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:03:48.600 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:03:55.774 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:03:55.775 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Filter threw Exception
+2018-03-01 14:05:30.126 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:06:05.315 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:06:06.726 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : Exist some errors...
+2018-03-01 14:06:31.281 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:06:33.426 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:06:34.145 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:06:39.194 [http-nio-8762-exec-7] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:25:52.106 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:25:53.411 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:55:54.822 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:56:58.864 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:57:00.236 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:57:01.250 [http-nio-8762-exec-7] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:57:01.713 [http-nio-8762-exec-9] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:57:02.041 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:57:16.259 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:57:37.363 [http-nio-8762-exec-7] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:58:22.520 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:58:27.554 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 14:59:39.243 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:00:13.700 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:00:15.963 [http-nio-8762-exec-6] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:00:21.255 [http-nio-8762-exec-8] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:01:30.182 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:01:34.401 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:02:02.606 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:03:24.459 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:03:29.529 [main] ERROR o.a.coyote.http11.Http11NioProtocol -Failed to start end point associated with ProtocolHandler [http-nio-8762]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at org.bond.yy.GatewayApplication.main(GatewayApplication.java:45)
+2018-03-01 15:03:29.533 [main] ERROR o.a.catalina.core.StandardService -Failed to start connector [Connector[HTTP/1.1-8762]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8762]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at org.bond.yy.GatewayApplication.main(GatewayApplication.java:45)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	... 14 common frames omitted
+2018-03-01 15:03:29.621 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8762 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8762, or configure this application to listen on another port.
+
+2018-03-01 15:05:12.494 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:07:01.270 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:22:35.853 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:22:35.854 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:22:36.642 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:22:36.643 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:22:37.267 [http-nio-8762-exec-6] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:22:37.267 [http-nio-8762-exec-6] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:23:00.952 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:23:00.952 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:23:23.220 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:23:23.221 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:25:03.284 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:25:03.284 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:30:32.045 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:30:32.045 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:30:32.913 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:30:32.914 [http-nio-8762-exec-5] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:52:00.849 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:52:00.850 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorExtFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:52:52.895 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:52:53.571 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero
+2018-03-01 15:53:01.201 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : / by zero

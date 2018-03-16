@@ -10,6 +10,7 @@
 package org.bond.yy.filter;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,7 +26,6 @@ import com.netflix.zuul.context.RequestContext;
  * 
  */
 public class PreFilter extends ZuulFilter {
-
 	Logger log = LoggerFactory.getLogger(getClass());
 
 	@Override
@@ -40,8 +40,17 @@ public class PreFilter extends ZuulFilter {
 		log.info("PreFilter run");
 		RequestContext ctx = RequestContext.getCurrentContext();
 		HttpServletRequest request = ctx.getRequest();
-		log.info(request.getRequestURI());
+		log.info(request.getRemoteAddr() + " : " + request.getRequestURI());
+//		doSomething();
+//		ctx.setSendZuulResponse(false);
+//        int i = 1/0;
+//		ctx.setResponseBody("PreFilter########################################");
+//		ctx.getResponse().setContentType("text/html;charset=UTF-8");
 		return null;
+	}
+
+	private void doSomething() {
+		throw new RuntimeException("Exist some errors...");
 	}
 
 	@Override

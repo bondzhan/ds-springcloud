@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.ReflectionUtils;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
@@ -44,7 +45,13 @@ public class PostFilter extends ZuulFilter {
 		log.info("PostFilter run");
         RequestContext ctx = RequestContext.getCurrentContext();  
         HttpServletRequest request = ctx.getRequest();  
-        log.info(request.getRequestURI());
+//        ctx.setResponseBody("Modified via setResponseBody(): ######################### ");
+//        ctx.setResponseStatusCode(200);
+//        try{
+//        	int i = 1/0;
+//        }catch(Exception e){
+//        	ReflectionUtils.rethrowRuntimeException(e);
+//        }
 		return null;
 	}
 
