@@ -9,14 +9,22 @@ import com.netflix.zuul.context.RequestContext;
 public class AccessTokenFilter extends AbstractYYFilter {
 
 	@Value("${system.config.accessTokenFilter.ignoreUrls}")
-	private Set<String> ignoreUrls;
+	private String[] ignoreUrls;
 
 	@Override
 	public boolean shouldFilter() {
 		HttpServletRequest req = RequestContext.getCurrentContext().getRequest();
-		log.info("ignore url :" + req.getRequestURI().toString());
-		return StringUtils.equalsIgnoreCase(req.getMethod(), "post")
-				&& !ignoreUrls.contains(req.getRequestURI().toString());
+		if(!StringUtils.equalsIgnoreCase(req.getMethod(), "post")){
+			return false;
+		}
+ 		if(null != ignoreUrls && ignoreUrls.length != 0){
+			for(String url : ignoreUrls){
+				if(url.contains(req.getRequestURI().toString())){
+					return false;
+				}
+			}
+		}
+		return true;
 	}
 
 	@Override

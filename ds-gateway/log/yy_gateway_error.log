@@ -1,36 +1,39 @@
-2018-03-07 13:56:12.045 [main] ERROR o.s.boot.SpringApplication -Application startup failed
-org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
- in 'reader', line 8, column 5:
-        getReqFilter
+2018-03-16 18:00:55.657 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.
+2018-03-16 18:02:52.087 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.
+2018-03-16 18:04:03.078 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.
+2018-03-16 18:08:29.757 [main] ERROR o.s.boot.SpringApplication -Application startup failed
+org.yaml.snakeyaml.parser.ParserException: while parsing MappingNode
+ in 'reader', line 7, column 7:
+          ignoreUrls: /user/login
+          ^
+Duplicate key: ignoreUrls
+ in 'reader', line 9, column 5:
+        getReqFilter:
         ^
-could not find expected ':'
- in 'reader', line 9, column 17:
-          ignoreUrls: /user/getUser
-                    ^
 
-	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:465)
-	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
-	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
-	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
-	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
-	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
-	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
-	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
-	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:104)
+	at org.springframework.beans.factory.config.YamlProcessor$StrictMapAppenderConstructor.constructMapping(YamlProcessor.java:411)
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:489)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:373)
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:147)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:354)
+	at org.springframework.beans.factory.config.YamlProcessor$StrictMapAppenderConstructor.constructMapping(YamlProcessor.java:407)
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:489)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:373)
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:147)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:354)
+	at org.springframework.beans.factory.config.YamlProcessor$StrictMapAppenderConstructor.constructMapping(YamlProcessor.java:407)
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:489)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:373)
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:147)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:354)
+	at org.springframework.beans.factory.config.YamlProcessor$StrictMapAppenderConstructor.constructMapping(YamlProcessor.java:407)
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:489)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:141)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:108)
 	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:471)
 	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:160)
 	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:138)
@@ -64,30 +67,97 @@ could not find expected ':'
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
-	at org.bond.yy.GatewayApplication.main(GatewayApplication.java:18)
-2018-03-07 13:58:05.754 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : null
-2018-03-07 14:00:14.390 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : null
-2018-03-07 14:01:01.003 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : null
-2018-03-07 14:02:14.572 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : null
-2018-03-07 14:02:53.273 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : null
-2018-03-07 14:06:25.356 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : null
-2018-03-07 14:06:35.792 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : null
-2018-03-07 14:26:39.535 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -token已过期!
-2018-03-07 15:48:07.282 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -token已过期!
-2018-03-07 15:48:11.580 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.AccessTokenFilter -token已过期!
-2018-03-07 15:52:28.967 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT expired at 2018-03-06T18:37:58+0800. Current time: 2018-03-07T15:52:28+0800
-2018-03-07 15:54:06.648 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT expired at 2018-03-06T18:37:58+0800. Current time: 2018-03-07T15:54:06+0800
-2018-03-07 17:07:09.817 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT expired at 2018-03-06T18:37:58+0800. Current time: 2018-03-07T17:07:09+0800
-2018-03-07 17:32:56.989 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT expired at 2018-03-06T18:37:58+0800. Current time: 2018-03-07T17:32:56+0800
-2018-03-07 17:40:14.858 [http-nio-8762-exec-8] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:15:33.730 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:16:27.384 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:17:20.093 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:28:43.973 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:28:43.974 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:29:40.902 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.AccessTokenFilter -JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:29:40.902 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:30:50.727 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:30:50.727 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:45:49.249 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.AccessTokenFilter -JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2018-03-07 18:45:49.250 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.ErrorFilter -this is a ErrorFilter : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at org.bond.yy.GatewayApplication.main(GatewayApplication.java:19)
+2018-03-16 18:08:58.564 [localhost-startStop-1] ERROR o.s.b.c.e.tomcat.TomcatStarter -Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'org.springframework.cloud.netflix.zuul.ZuulConfiguration$ZuulFilterConfiguration': Unsatisfied dependency expressed through field 'filters'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'setAccessTokenFilterBean': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'system.config.accessTokenFilter.ignoreUrls' in value "${system.config.accessTokenFilter.ignoreUrls}"
+2018-03-16 18:08:58.616 [main] ERROR o.s.boot.SpringApplication -Application startup failed
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:536)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at org.bond.yy.GatewayApplication.main(GatewayApplication.java:19)
+Caused by: org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:123)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.<init>(TomcatEmbeddedServletContainer.java:84)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getTomcatEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:548)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory.getEmbeddedServletContainer(TomcatEmbeddedServletContainerFactory.java:179)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:164)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.cloud.netflix.zuul.ZuulConfiguration$ZuulFilterConfiguration': Unsatisfied dependency expressed through field 'filters'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'setAccessTokenFilterBean': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'system.config.accessTokenFilter.ignoreUrls' in value "${system.config.accessTokenFilter.ignoreUrls}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:234)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:182)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:163)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:80)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getServletContextInitializerBeans(EmbeddedWebApplicationContext.java:241)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.selfInitialize(EmbeddedWebApplicationContext.java:228)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.access$000(EmbeddedWebApplicationContext.java:89)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext$1.onStartup(EmbeddedWebApplicationContext.java:213)
+	at org.springframework.boot.context.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:55)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5178)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'setAccessTokenFilterBean': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'system.config.accessTokenFilter.ignoreUrls' in value "${system.config.accessTokenFilter.ignoreUrls}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1275)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 35 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'system.config.accessTokenFilter.ignoreUrls' in value "${system.config.accessTokenFilter.ignoreUrls}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:831)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	... 49 common frames omitted
+2018-03-16 18:12:47.501 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.
+2018-03-16 18:12:49.496 [http-nio-8762-exec-2] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.
+2018-03-16 18:23:00.055 [http-nio-8762-exec-1] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.
+2018-03-16 18:23:01.466 [http-nio-8762-exec-3] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.
+2018-03-16 18:23:04.891 [http-nio-8762-exec-4] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.
+2018-03-16 18:23:09.466 [http-nio-8762-exec-6] ERROR org.bond.yy.filter.AccessTokenFilter -Missing or invalid Authorization header.

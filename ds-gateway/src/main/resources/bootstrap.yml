@@ -4,7 +4,7 @@ server:
 system:
   config:
     accessTokenFilter:
-      ignoreUrls: /user/login
+      ignoreUrls: /user/login,/user/getUserOrder
     getReqFilter:
       ignoreUrls: /user/getUser
       

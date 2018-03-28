@@ -67,5 +67,6 @@ abstract class AbstractYYFilter extends ZuulFilter {
 	public void setErrorDefineReponse(String resBody){
 		RequestContext.getCurrentContext().setSendZuulResponse(false);
 		RequestContext.getCurrentContext().setResponseBody(resBody);
+		RequestContext.getCurrentContext().getResponse().setContentType("text/html;charset=UTF-8");
 	}
 }
