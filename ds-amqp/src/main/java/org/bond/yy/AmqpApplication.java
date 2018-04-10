@@ -1,23 +1,25 @@
-/**   
-* @Title: AmqpApplication.java 
-* @Package org.bond.yy 
-* @Description: TODO(ÓÃÒ»¾ä»°ÃèÊö¸ÃÎÄ¼ş×öÊ²Ã´) 
-* @author bond
-* @date 2018Äê3ÔÂ26ÈÕ ÉÏÎç11:35:47 
-* @version V1.0   
-*/
 package org.bond.yy;
 
-/** 
-* @ClassName: AmqpApplication 
-* @Description: TODO(ÕâÀïÓÃÒ»¾ä»°ÃèÊöÕâ¸öÀàµÄ×÷ÓÃ) 
-* @author bond
-* @date 2018Äê3ÔÂ26ÈÕ ÉÏÎç11:35:47 
-*  
-*/
- public class AmqpApplication {
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration;
 
-	public static void main(String args[]) throws InterruptedException{
-	
+/**
+ * 
+* @ClassName: AmqpApplication 
+* @Description: TODO(è¿™é‡Œç”¨ä¸€å¥è¯æè¿°è¿™ä¸ªç±»çš„ä½œç”¨) 
+* @author bond
+* @date 2018å¹´3æœˆ29æ—¥ ä¸‹åˆ5:49:44 
+*
+ */
+@SpringBootApplication
+@EnableAutoConfiguration(exclude = RabbitAutoConfiguration.class)
+public class AmqpApplication {
+
+	public static void main(String args[]) throws InterruptedException {
+		SpringApplication.run(AmqpApplication.class, args);
 	}
+
+	
 }

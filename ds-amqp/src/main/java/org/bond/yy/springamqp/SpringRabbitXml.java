@@ -1,9 +1,9 @@
 /**   
 * @Title: SpringRabbitXml.java 
 * @Package org.bond.yy.springamqp 
-* @Description: TODO(用一句话描述该文件做什么) 
+* @Description: TODO(锟斤拷一锟戒话锟斤拷锟斤拷锟斤拷锟侥硷拷锟斤拷什么) 
 * @author bond
-* @date 2018年3月27日 下午2:10:04 
+* @date 2018锟斤拷3锟斤拷27锟斤拷 锟斤拷锟斤拷2:10:04 
 * @version V1.0   
 */
 package org.bond.yy.springamqp;
@@ -12,13 +12,6 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-/** 
-* @ClassName: SpringRabbitXml 
-* @Description: TODO(这里用一句话描述这个类的作用) 
-* @author bond
-* @date 2018年3月27日 下午2:10:04 
-*  
-*/
 public class SpringRabbitXml {
 
 	public static void main(final String... args) throws Exception {

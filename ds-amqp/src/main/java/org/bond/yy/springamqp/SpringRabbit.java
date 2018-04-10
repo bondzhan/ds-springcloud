@@ -1,9 +1,9 @@
 /**   
 * @Title: SpringRabbit.java 
 * @Package org.bond.yy.springamqp 
-* @Description: TODO(用一句话描述该文件做什么) 
+* @Description: TODO(锟斤拷一锟戒话锟斤拷锟斤拷锟斤拷锟侥硷拷锟斤拷什么) 
 * @author bond
-* @date 2018年3月27日 下午1:49:29 
+* @date 2018锟斤拷3锟斤拷27锟斤拷 锟斤拷锟斤拷1:49:29 
 * @version V1.0   
 */
 package org.bond.yy.springamqp;
@@ -18,13 +18,6 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
 
-/** 
-* @ClassName: SpringRabbit 
-* @Description: TODO(这里用一句话描述这个类的作用) 
-* @author bond
-* @date 2018年3月27日 下午1:49:29 
-*  
-*/
 public class SpringRabbit {
 	
 	public static void main(String...strings){
