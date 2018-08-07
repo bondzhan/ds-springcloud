@@ -17,7 +17,6 @@ import org.springframework.web.client.RestTemplate;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 @RestController
-@RequestMapping("/user")
 public class UserController {
 	Logger log = LoggerFactory.getLogger(getClass());
 	

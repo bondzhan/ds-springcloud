@@ -1,6 +1,7 @@
 server:
   port: 8764
-
+  context-path:/user
+  
 hystrix:
   config:
     stream:
