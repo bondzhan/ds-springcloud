@@ -4,3 +4,5 @@
 公共网关 ds-gateway
 配置中心 ds-config
 user服务 ds-userservice
+
+注册中心-eureka
