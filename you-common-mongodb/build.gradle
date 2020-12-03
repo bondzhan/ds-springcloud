@@ -1,0 +1,10 @@
+jar {
+    baseName = 'common-mongodb'
+}
+
+repositories {
+     maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+}
+ dependencies {
+        compile("org.springframework.boot:spring-boot-starter-data-mongodb:${springBootVersion}")
+}

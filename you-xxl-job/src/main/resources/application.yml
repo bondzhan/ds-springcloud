@@ -1,0 +1,39 @@
+server:
+  port: 1001
+  context-path: /xxl-job
+  
+spring:
+  application:
+    name: you-xxljob-service
+  profiles:
+    active: you-xxljob-service
+      
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.0.111:8877/eureka/
+    #eureka client刷新本地缓存时间 默认30s
+    registryFetchIntervalSeconds: 5
+  instance:
+    #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+    #注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，
+    leaseExpirationDurationInSeconds: 10
+    #服务刷新时间配置，每隔这个时间会主动心跳一次 默认30s
+    leaseRenewalIntervalInSeconds: 5
+      
+ribbon:
+  #eureka客户端ribbon刷新时间 默认30s
+  ServerListRefreshInterval: 2000
+  
+### xxl-job admin address list, such as "http://address" or "http://address01,http://address02"
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:8080/xxl-job-admin
+    executor:
+      appname: xxl-job-executor-you
+      ip: 192.168.0.111
+      port: 9998
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: -1
+    accessToken: 

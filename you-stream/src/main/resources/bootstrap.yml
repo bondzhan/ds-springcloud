@@ -1,0 +1,17 @@
+server:
+  port: 8083
+  
+spring:
+  application:
+    name: stream-service
+  profiles:
+    active: streamservice
+  cloud:
+    config:
+      uri: http://localhost:8888
+      profile: streamservice
+      
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

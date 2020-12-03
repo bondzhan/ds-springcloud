@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+buildscript {
+    repositories {
+       maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+ repositories {
+     jcenter()
+    maven { url 'https://repo.spring.io/release/' }
+    maven { url "http://repo.spring.io/libs-snapshot-local" }
+    maven { url "http://repo.spring.io/libs-milestone-local" }
+    maven { url "http://repo.spring.io/libs-release-local" }
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter:1.5.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-amqp:1.5.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-test:1.5.2.RELEASE'
+    
+    testCompile "junit:junit"
+}

@@ -1,0 +1,15 @@
+jar {
+    baseName = 'common-jwt'
+}
+
+repositories {
+     maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}
+}
+ dependencies {
+    compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.6.0'
+    compile group: 'com.github.penggle', name: 'kaptcha', version: '2.3.2'
+    compile project(':you-common-base')
+    
+}
+ 
+ 

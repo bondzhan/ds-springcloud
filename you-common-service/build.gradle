@@ -1,0 +1,31 @@
+// jar {
+//    baseName = 'common-service'
+//}
+
+ repositories {
+     jcenter()
+    maven { url 'https://repo.spring.io/release/' }
+    maven { url "http://repo.spring.io/libs-snapshot-local" }
+    maven { url "http://repo.spring.io/libs-milestone-local" }
+    maven { url "http://repo.spring.io/libs-release-local" }
+    maven { url "http://maven.jeecg.org/nexus/" }
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+	compile group: 'org.aspectj', name: 'aspectjrt', version: '1.8.9'
+ 	compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.8.9'
+    compile project(':you-common-base')
+	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.5.0'
+	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.5.0'
+	// https://mvnrepository.com/artifact/org.bouncycastle/com.springsource.org.bouncycastle.jce
+	compile group: 'org.bouncycastle', name: 'com.springsource.org.bouncycastle.jce', version: '1.39.0'
+
+    //excel
+    compile group: 'org.jeecgframework', name: 'jeasypoi-base', version: '2.1.6'
+    compile group: 'org.jeecgframework', name: 'jeasypoi-web', version: '2.1.6'
+    compile group: 'org.jeecgframework', name: 'jeasypoi-annotation', version: '2.1.6'
+    compile group: 'org.jeecgframework', name: 'jeasypoi', version: '2.1.6', ext: 'pom'
+    //csv
+    compile group: 'com.opencsv', name: 'opencsv', version: '4.2'
+}

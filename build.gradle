@@ -7,6 +7,11 @@ allprojects {
   //  println it.name
 //}
 
+ext {
+			springBootVersion = '1.5.13.RELEASE'
+			springCloudVersion = 'Edgware.SR3'
+}
+
 subprojects{
      
     apply plugin: 'java'    

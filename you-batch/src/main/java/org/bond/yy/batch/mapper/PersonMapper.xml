@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.bond.yy.batch.mapper.PersonMapper">
+    <resultMap id="personResultMap" type="org.bond.yy.batch.model.Person">
+        <id column="person_id" jdbcType="INTEGER" property="personId" />
+        <result column="first_name" jdbcType="VARCHAR" property="firstName" />
+          <result column="last_name" jdbcType="VARCHAR" property="lastName" />
+    </resultMap>
+
+    <select id="queryUser"  resultMap="personResultMap">
+    	select person_id, first_name, last_name from people where first_name = #{firstName}  LIMIT  #{_skiprows}, #{_pagesize}
+    </select>
+</mapper>

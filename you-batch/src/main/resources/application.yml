@@ -1,0 +1,47 @@
+server:
+  port: 1001
+
+logging:
+  level: 
+    root: info
+
+spring:
+  application:
+    name: you-batch-service
+  profiles:
+    active: you-batch-service
+  batch:
+    job:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: xyb2b
+    password: xyb2b
+    driverClassName: com.mysql.jdbc.Driver
+    testWhileIdle: true
+    validationQuery: select 1
+    testOnBorrow: false
+    validationInterval: 1000
+    minIdle: 10
+    maxIdle: 15
+    maxActive: 8
+    initialSize: 8
+    testOnConnect: true
+    initSQL: select 1
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8877/eureka/
+    #eureka client刷新本地缓存时间 默认30s
+    registryFetchIntervalSeconds: 5
+  instance:
+    #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+    #注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，
+    leaseExpirationDurationInSeconds: 10
+    #服务刷新时间配置，每隔这个时间会主动心跳一次 默认30s
+    leaseRenewalIntervalInSeconds: 5
+      
+ribbon:
+  #eureka客户端ribbon刷新时间 默认30s
+  ServerListRefreshInterval: 2000

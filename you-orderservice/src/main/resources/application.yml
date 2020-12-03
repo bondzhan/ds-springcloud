@@ -1,0 +1,42 @@
+server:
+  port: 1001
+  context-path: /order
+  
+spring:
+  application:
+    name: you-order-service
+  profiles:
+    active: you-order-service
+      
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.0.237:8877/eureka/
+    #eureka client刷新本地缓存时间 默认30s
+    registryFetchIntervalSeconds: 5
+  instance:
+    #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+    #注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，
+    leaseExpirationDurationInSeconds: 10
+    #服务刷新时间配置，每隔这个时间会主动心跳一次 默认30s
+    leaseRenewalIntervalInSeconds: 5
+      
+ribbon:
+  #eureka客户端ribbon刷新时间 默认30s
+  ServerListRefreshInterval: 2000
+
+
+####################################################
+##############        redis 配置                  #################
+####################################################
+# Database index used by the connection factory.
+redis:
+  database: 0
+  host: 192.168.0.168
+  password: xyb2b_test
+  pool.max-active: 8
+  pool.max-idle: 8
+  pool.max-wait: -1
+  pool.min-idle: 0
+  port: 6379
+  timeout: 5000
